@@ -1,0 +1,122 @@
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 375px;
+  height: 92px;
+  left: 0;
+  top: 10px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.humberger {
+  padding-right: 20px;
+}
+
+.portfolio {
+  position: absolute;
+  width: 375px;
+  height: 587.15px;
+  background: #f7f7f9;
+  background: url(images/header-shapes\ mobile.png);
+  display: flex;
+}
+
+.headline {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  left: calc(50% - 375px / 2);
+  top: 52px;
+}
+
+.name {
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.what-i-do {
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.connect {
+  width: 147px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.social-media {
+  width: 270.17px;
+  height: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul,
+li {
+  display: inline;
+}
+
+#linkin {
+  margin-left: 10px;
+}
+
+#medium {
+  margin-left: 10px;
+}
+
+#github {
+  margin-left: 10px;
+}
+
+#angelist {
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+}
