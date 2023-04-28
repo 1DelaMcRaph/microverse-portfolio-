@@ -1,133 +1,103 @@
-/* navbar design */
-nav {
-  display: flex;
-  background: #fff;
-  height: 72px;
-  left: 0;
-  top: 0;
-  position: absolute;
-  width: 100%;
-  justify-content: flex-end;
-  text-align: center;
+
+.navbar{
+    position: relative;
+    width: 375px;
+    height: 92px;
+    left: 0px;
+    top: 0px; 
+    }
+
+.portfolio{
+    position: absolute;
+    width: 375px;
+    height: 587.15px;
+    background: #F7F7F9;
+    background: url(images/header-shapes\ mobile.png);
+    display: flex;
 }
 
-nav li {
-  list-style: none;
-  display: inline-block;
-  padding: 0 30px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+.headline{
+flex-direction: column; 
+align-items: flex-start;
+padding: 114px 24px;
+gap: 12px;
+position: absolute;
+width: 375px;
+left: calc(50% - 375px / 2);
+top: 52px;
 }
 
-#logo {
-  width: 76px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  color: #6070ff;
-  margin-right: auto;
+.name{
+width: 327px;
+height: 150px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #172B4D;
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
-ul li a {
-  text-decoration: none;
-  color: #344563;
+.what-i-do{
+width: 327px;
+height: 146px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+flex: none;
+order: 1;
+flex-grow: 0;
 }
 
-/* self introduction */
-
-.container {
-  position: absolute;
-  height: 521.46px;
-  background-color: #ebebff;
-  background-image: url(images/Header\ bg.png);
-  width: 100%;
-  top: 70px;
+.connect{
+width: 147px;
+height: 24px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  gap: 12px;
-  position: absolute;
-  width: 920px;
-  height: 268px;
-  left: 260px;
-  top: calc(50% - 268px / 2);
+.social-media{
+width: 170.17px;
+height: 20px;
+flex: none;
+order: 3;
+flex-grow: 0;
+
 }
 
-.primary-text {
-  width: 920px;
-  height: 10px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.37px;
-  color: #091e42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+#linkin{
+    margin-left:10px;
 }
 
-.primary-text-details {
-  width: 920px;
-  height: 68px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+#medium{
+    margin-left:10px;
 }
 
-.lets-connect {
-  width: 117px;
-  height: 14px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+#github{
+    margin-left:10px;
+ }
+
+#angelist{
+     margin-left:10px;
 }
 
-/* social media links  */
-.social-media {
-  order: 1;
-}
-
-a.social-media {
-  letter-spacing: 0.37px;
-  text-decoration: none;
-  padding: 5px;
-  padding-left: 0;
-}
-
-/* responsive media queries */
-@media only screen and (max-width: 375px) {
-  .container {
-    background: url(images/Header\ bg.png);
+@media only screen and (min-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
   }
-}
-
-@media only screen and (max-width: 768px) {
-  .container {
-    background: url(images/Header\ bg.png);
-  }
-}
