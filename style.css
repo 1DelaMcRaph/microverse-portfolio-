@@ -1,10 +1,20 @@
 
 .navbar {
   position: relative;
+  display: flex;
+  flex-direction: row;
   width: 375px;
   height: 92px;
   left: 0;
-  top: 0;
+  top: 10px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.humberger {
+  padding-right: 20px;
 }
 
 .portfolio {
@@ -72,11 +82,21 @@
 }
 
 .social-media {
-  width: 170.17px;
+  width: 270.17px;
   height: 20px;
   flex: none;
-  order: 3;
+  order: 0;
   flex-grow: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul,
+li {
+  display: inline;
 }
 
 #linkin {
