@@ -18,7 +18,7 @@
 }
 
 .portfolio {
-  position: absolute;
+  position: relative;
   width: 375px;
   height: 587.15px;
   background: #f7f7f9;
@@ -113,6 +113,188 @@ li {
 
 #angelist {
   margin-left: 10px;
+}
+
+#bar {
+  background: #172b4d;
+}
+
+/* grid column */
+.box {
+  margin-top: 30px;
+  background: #f7f7f9;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  height: 3000px;
+}
+
+/* work one 1 */
+.workCard1 {
+  border: 1px solid #efe1e6;
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 88px;
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 60px;
+}
+
+.block2 {
+  width: 295px;
+  height: 400px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 5px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* work design  */
+.tonic {
+  font-family: 'Poppins', sans-serif;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.counter-shadow {
+  color: #7a869a;
+}
+
+.project-details {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tech-Stack {
+  display: flex;
+  bottom: 1rem;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: flex-start;
+  list-style: none;
+  padding-left: 14px;
+}
+
+#html,
+#css,
+#js {
+  background: #ebebff;
+  border-radius: 8px;
+  width: 50px;
+  padding: 4px;
+  text-align: center;
+}
+
+#js {
+  background: #ebebff;
+  border-radius: 8px;
+  width: 100px;
+  padding: 4px;
+  text-align: center;
+}
+
+.seeProject {
+  margin-bottom: 28px;
+  background: var(--body-color);
+  border-radius: 10px;
+  border: 1px solid #396df2;
+  color: #396df2;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  outline: none;
+  text-align: center;
+  width: 124px;
+  height: 48px;
+  margin-left: 6px;
+}
+
+.seeProject:active {
+  background: rgb(28, 31, 65);
+}
+
+/* about me page */
+.about-me h2 {
+  font-size: 40px;
+  height: 90px;
+  line-height: 52px;
+}
+
+.cover {
+  background: #f7f7f9;
+}
+
+.myself {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 25px;
+  font-family: "Poppins", sans-serif;
+  padding: 40px 0 0 24px;
+  background: #fff;
+  border-top-right-radius: 50px;
+}
+
+.headSelf {
+  padding-left: 0;
+  line-height: 40px;
+  margin: 0;
+}
+
+.about2 {
+  background: var(--body-color);
+  border-radius: 10px;
+  border: 1px solid #396df2;
+  color: #396df2;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  outline: none;
+  text-align: center;
+  width: 170px;
+  height: 48px;
+}
+
+.about2:active {
+  background: rgb(204, 36, 162);
+}
+
+.lan {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-right: auto;
+}
+
+.arrow {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.arrowsign {
+  width: 15px;
+  height: 15px;
+}
+
+.separator {
+  position: absolute;
+  width: 300px;
 }
 
 @media only screen and (min-width: 768px) {
